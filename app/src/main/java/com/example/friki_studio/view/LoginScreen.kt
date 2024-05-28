@@ -32,13 +32,13 @@ import androidx.lifecycle.viewmodel.compose.viewModel
 import androidx.navigation.NavController
 import com.example.friki_studio.R
 import com.example.friki_studio.Routes
-import com.example.friki_studio.viewmodel.auth.AuthVM
+import com.example.friki_studio.viewmodel.auth.AuthViewModel
 
 @Composable
 fun Login(navController: NavController, modifier: Modifier = Modifier) {
     var user by remember { mutableStateOf(TextFieldValue("")) }
     var password by remember { mutableStateOf(TextFieldValue("")) }
-    val authViewModel: AuthVM = viewModel()
+    val authViewModel: AuthViewModel = viewModel()
 
     Box(
         modifier = Modifier

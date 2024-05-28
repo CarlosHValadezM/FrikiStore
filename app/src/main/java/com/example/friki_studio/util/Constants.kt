@@ -1,4 +1,4 @@
-package com.example.friki_studio.viewmodel
+package com.example.friki_studio.util
 
 object Constants {
     const val baseUrlAuth = "http://192.168.1.7/FrikiStudioBack/EndPoints/Auth/";

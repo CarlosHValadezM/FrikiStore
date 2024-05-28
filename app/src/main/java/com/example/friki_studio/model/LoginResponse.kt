@@ -1,4 +1,9 @@
-package com.example.friki_studio.models.responses
+package com.example.friki_studio.model
+
+data class LoginResponse(
+    val resultado: Resultado,
+    val codigo: Int
+)
 
 data class Resultado(
     val Contraseña: String,
